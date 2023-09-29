@@ -15,7 +15,7 @@ body {
 .slider {
   width: 370px;
   height: 370px;
-  background-color: cyan;
+ 
   display: flex;
   transition: 1s;
 }
