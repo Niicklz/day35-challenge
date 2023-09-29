@@ -1,0 +1,48 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  width: 100%;
+  min-height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.slider {
+  width: 370px;
+  height: 370px;
+  background-color: cyan;
+  display: flex;
+  transition: 1s;
+}
+.slider-container {
+  width: 370px;
+  height: 370px;
+  overflow: hidden;
+}
+.buttons-container {
+  width: 370px;
+
+  display: flex;
+  align-items: center;
+  margin-top: 6px;
+  gap: 3px;
+}
+button {
+  width: 100%;
+  padding: 0.6rem;
+  cursor: pointer;
+  background-color: rebeccapurple;
+  text-transform: capitalize;
+  border: none;
+  color: #fff;
+  font-weight: bold;
+}
+.slider img {
+  width: 100%;
+  object-fit: cover;
+}
